@@ -1,132 +1,217 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Nathan Sherritt Designs</title>
-    <title>Nathan Sherritt Designs</title>
-    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
-    <link rel="stylesheet" href="css/swiper.min.css">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="css/slideoutmenu.css">
+<html lang="zxx"> <!-- lang="zxx" = All content can be translated via browser -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- allow responsiveness when viewed on devices-->
+        <title>Nathan Sherritt Designs</title><!-- Change this to reflect your website and page description -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet"><!-- Google Fonts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><!-- Google JQuery -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Font Awesome ICON library, visit https://fontawesome.com/icons?d=gallery&m=free for how to use -->
+        <link rel="icon" href="images/Nash_Logo.ico"/> <!-- My Favicon | https://www.favicon-generator.org -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css" >
+    </head>
 
-</head>
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#anchor1">Home &nbsp;</a></li>
-                <li><a href="#anchor2">Portfolio &nbsp;</a></li>
-                <li><a href="#anchor3">Contact &nbsp;</a></li>
+<header class="header">
+    <div class="wrapper">
+
+        <h1 class="logo"><a href="#sec1"><img alt="img description" src="images/Telegram_Logo.png" width="120"></a></h1>
+
+        <a id="menu-icon" class="fa fa-bars"></a>
+
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="#sec1" class="menu-item-1 active">Home</a></li>
+                <li><a href="#sec2" class="menu-item-2">Portfolio</a></li>
+                <li><a href="#sec3" class="menu-item-3">Contact</a></li>
             </ul>
         </nav>
-        <div id="open" class="openbtn" style="cursor:pointer" onclick="openNav()">
-        <div class="burgericon"></div>
-        <div class="burgericon"></div>
-        <div class="burgericon"></div>
+
     </div>
-    </header>
+</header>
 
-    <section id="anchor1" class="sandwhich">
-    <img src="images/logo.svg">
+<div class="full-page bgimg-hero"> <!-- Full browser wrapper inside -->
 
-    </section>
+    <div class="wrapper"> <!-- START WRAPPER 1 -->
 
-    <main>
-        <section id="anchor2" class="chips hideme">
-             <section>
-        <video preload controls autoplay width="528" height="396">
-            <source src="videos/Touchscreen_App.webm" type="video/webm">
-            Your Browser does not support embeded video
-        </video>
+        <section id="sec1">
+            <div class="narrow light-text">
+               <div class="hero centre">
+                 <div class="trailer video centre">
+               <video controls="" height="505" width="853">
+                <source src="images/Photography/crosswalk.jpg" />
+                </video>
+            </div>
+            </div>
+            </div>
 
-        <video preload controls autoplay width="528" height="396">
-            <source src="videos/Guesture_Controlled_App.webm" type="video/webm">
-        </video>
+
+            <div class="narrow centre">
+                <h2>Designs and Illustrations</h2>
+                <p>My name is Nathaniel Sherritt, and I am a second year Graphic Design student at Durham College. This is my personal website filled with my own artwork, photographs, or other pieces of work. I am still learning and improving, but I am hopeful for any potential work or oppurtunites to help me learn more. I will be updating this website with future pieces as I work and continue to grow.</p>
+            </div>
+        </section>
+
+    </div><!-- .wrapper END 1-->
+
+</div><!-- Full browser END -->
+
+
+    <div class="wrapper"> <!-- START WRAPPER 2 -->
+
+
+        <section id="sec2">
+                <p>I have chosen what I believe to be my best pieces so far. I have tried to include a variety of different mediums, but if you want to see more of my work, feel free to reach out to me. You can find my contact information under Contact in the menu.</p>
+                <div class="flex-grid-thirds">
+                    <div class="col centre">
+                        <img alt="img description" src="images/food_festival_poster.jpg" width="150">
+                    </div>
+                    <div class="col centre">
+                        <img alt="img description" src="images/iPhone_iPad.jpg" width="200">
+                        <h3>iPhone/iPad</h3>
+                    </div>
+                    <div class="col centre">
+                        <img alt="img description" src="images/WP.jpg" width="200">
+                        <h3>WP</h3>
+                    </div>
+                </div>
+                 <div class="flex-grid-thirds">
+                    <div class="col centre">
+                        <img alt="img description" src="images/PC_macOS.jpg" width="300">
+                        <h3>PC/macOS</h3>
+                    </div>
+                </div>
+           <div class="narrow centre">
+            <a class="btn secondary" href="#sec3" >Learn More</a>
+            </div>
+        </section>
+
+        <section id="sec3">
+              <div class="flex-grid-half">
+                <div class="col centre">
+                    <img alt="img description" class="high-five" src="images/FAQ_1.jpg" width="500">
+                </div>
+                <div class="col">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="flex-grid-half">
+                <div class="col right">
+                </div>
+                <div class="col centre">
+                    <img alt="img description" class="otto" src="images/FAQ_2.jpg" width="360">
+                </div>
+            </div>
+
+            <hr>
+
+              <div class="flex-grid-half">
+                <div class="col centre">
+                    <img alt="img description" class="high-five" src="images/FAQ_3.jpg" width="500">
+                </div>
+                <div class="col">
+                </div>
+            </div>
+        </section>
+
+        <section id="sec4">
+            <div class="flex-grid-half">
+                <div class="col right">
+                </div>
+                <div class="col centre">
+                    <img alt="img description" class="otto" src="images/Telegram_Banner.jpg" width="360">
+                </div>
+            </div>
+        </section>
+
+
+        <div id="sec5">
+                <div class="flex-grid-thirds">
+                    <div class="col centre">
+                        <img class="sticker" alt="img description" src="images/sticker_1.jpg" width="200">
+                    </div>
+                    <div class="col centre">
+                        <img class="sticker" alt="img description" src="images/sticker_2.jpg" width="200">
+                    </div>
+                    <div class="col centre">
+                        <img class="sticker" alt="img description" src="images/sticker_3.jpg" width="200">
+                    </div>
+                </div>
+
+                <div class="flex-grid-thirds">
+                    <div class="col centre">
+                        <img class="sticker" alt="img description" src="images/sticker_4.jpg" width="200">
+                    </div>
+                    <div class="col centre">
+                        <img class="sticker" alt="img description" src="images/sticker_5.jpg" width="200">
+                    </div>
+                    <div class="col centre">
+                        <img class="sticker" alt="img description" src="images/sticker_6.jpg" width="200">
+                    </div>
+                </div>
+        <section>
+            <div>
+                <div>
+                    <h3>Custom Sticker Sets</h3>
+                        <p>Starting today, artists can submit their custom sticker sets via the Telegram @stickers bot. Each sticker set gets a permanent link, so that users can easily add new stickers and share them with friends. This enables artists of the world to unleash their creativity and help Telegram users customize their experience. Our in-house artist (responsible for the graphic art in this blog) created some of the Animals in this set as an example.</p>
+
+                  <h3>Sharing Stickers</h3>
+                        <p>Sending a link isnʻt the only way to share a sticker set. When you receive a sticker from a set you do not currently have installed, simply tap on it and choose ʼAdd to Stickersʻ (ʼInfo' on iOS) to preview and add the whole set.
+                        <br>
+                        <br>
+                        Once you've added a set, its stickers become available via emoji tooltips or the dedicated sticker panel. The iOS app now has one too — you can manually switch it on/off in Chat Settings — Stickers.</p>
+                    </div>
+                </div>
             </section>
-        </section>
-        <section id="anchor3" class="drink hideme">
+            <div class="narrow centre">
+                 <a class="btn secondary" href="#sec3" >Learn More</a>
+            </div>
+        </div>
 
-        </section>
-    </main>
-    <footer id="anchor4"></footer>
+    </div> <!-- .wrapper END 2-->
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script>
-     // animated scroll based on nav link trigger ////////////////////
-        // determines the height of nav bar plus buffer
-        var navOffset = $("nav").innerHeight() + 20;
+<footer class="full-page">
 
-        // function for animated nav scroll
-        $("nav a[href^='#']").click(function (e) {
+    <div class="wrapper"> <!-- START WRAPPER 3 -->
+        <div class="flex-grid-forths">
+            <div class="col">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#sec1">About</a></li>
+                        <li><a href="#sec2">Apps</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#sec3">FAQ</a></li>
+                        <li><a href="#sec4">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#sec5">Stickers</a></li>
+                        <li><a href="https://www.w3schools.com/w3css/" target="_blank" >Start Now</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="logo">
+                    <a href="#sec1"><img alt="img description" src="images/Telegram_Logo.png" width="80"></a>
+                </div>
+            </div>
+        </div>
+    </div> <!-- .wrapper END 3-->
 
-            // prevents browser from doing a default click
-            e.preventDefault();
+</footer>
 
-            // finds the position of selected link/ID
-            var idPosNav = $($(this).attr("href")).offset().top - navOffset;
+<script src="js/main.js"></script>
 
-            // animates to selected section position
-            $("body, html").animate({scrollTop: idPosNav}, 1000, "easeInOutQuad");
-        });
-    // Removes and adds hideme & showme css classes to elements based on scrollin position
-       $(document).ready(function() {
-        $(window).scroll( function(){
-            $('.hideme').each( function(i){
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            if( bottom_of_window > bottom_of_object ){
-                $(this).addClass('showme');
-            }
-            if( bottom_of_window < bottom_of_object ){
-                $(this).removeClass('showme');
-            }
-        });
-    });
-});
-</script>
-
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/swiper.min.js"></script>
-<script>
-        var swiper = new Swiper({
-            el: '.swiper-container',
-            initialSlide: 2,
-            spaceBetween: 50,
-            slidesPerView: 2,
-            centeredSlides: true,
-            slideToClickedSlide: true,
-            grabCursor: true,
-            scrollbar: {
-              el: '.swiper-scrollbar',
-            },
-            mousewheel: {
-              enabled: true,
-            },
-            keyboard: {
-              enabled: true,
-            },
-            pagination: {
-              el: '.swiper-pagination',
-            },
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-            },
-        });
-    document.body.className += 'fade-out';
-    $(function() {
-    $('body').removeClass('fade-out');
-});
-function openNav() {
-    document.getElementById("mySidenav").style.width = "400px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-    </script>
-    </body>
+</body>
 </html>
