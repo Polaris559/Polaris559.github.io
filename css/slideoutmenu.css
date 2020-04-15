@@ -1,0 +1,70 @@
+body {
+    background-color: darkgray;
+    margin: 0;
+    opacity: 1;
+    transition: 2.0s opacity;
+    position: relative;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+.openbtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    transition: 0.3s;
+    z-index: 200;
+    padding: 3px 23px 3px 3px;
+    text-align: left;
+}
+.burgericon {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 4px 0;
+}
+.openbtn:hover {
+    background-color: #ccc;
+}
+.sidenavcontainer {
+    height: 500px;
+    width: 10px;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 700;
+    background-color: #ccc;
+    transition: 0.5s;
+}
+.closebtn {
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: white;
+}
+
+.sidenavcontainer ul {
+    margin-top: 44px;
+}
+.sidenavcontainer li {
+    list-style: none;
+}
+.sidenavcontainer a {
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    color: cornflowerblue;
+}
+.sidenavcontainer a:hover {
+    color: white;
+}
