@@ -56,7 +56,7 @@ img:hover {
 
 .bgimg-hero {
 	background-image: url(); /* The image used */
-	background-color: white; /* Used if the image is unavailable */
+	/*background-color: white; /* Used if the image is unavailable */
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container */
