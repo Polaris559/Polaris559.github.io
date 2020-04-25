@@ -232,7 +232,7 @@ a:hover {
 	color: white;
 }
 
-.light-text {color: #ffffff;}
+.light-text {color: #000000;}
 .light-text a,
 .light-text .btn.tertiary {color: #ffffff}
 .light-text a:hover,
